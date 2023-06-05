@@ -1,0 +1,100 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  background-size: cover;
+  height: 100vh;
+}
+.app-logo {
+  width: 150px;
+}
+.container1 {
+  background-color: #5763a5;
+  width: 90%;
+  display: flex;
+}
+.new-password-input-container {
+  background-color: #454f84;
+  width: 40%;
+}
+.new-password-heading {
+  color: #ffffff;
+  font-size: 22px;
+}
+.input-container {
+  background-color: #ffffff;
+  width: 30%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.input-logo {
+  width: 10px;
+  height: 10px;
+}
+.vertical-line {
+  width: 1px solid #bfbfbf;
+}
+.input {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  height: 30px;
+}
+.add-button {
+  background-color: #0b69ff;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  width: 70px;
+  height: 30px;
+}
+.new-password-logo-container {
+  width: 60%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .new-password-logo-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png');
+  }
+}
+.container2 {
+  margin-top: 10px;
+  background-color: #5763a5;
+}
+.head-container {
+  display: flex;
+  justify-content: space-between;
+}
+.your-password-heading {
+  color: #ffffff;
+  font-size: 25px;
+}
+label {
+  color: #ffffff;
+}
+.password-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-passwords-image {
+  width: 300px;
+  height: 300px;
+}
+.sm-image {
+}
+@media (min-width: 769px) {
+  .sm-image {
+    display: none;
+  }
+}
+.lg-image {
+  width: 200px;
+}
+@media (max-width: 767px) {
+  .lg-image {
+    display: none;
+  }
+}
